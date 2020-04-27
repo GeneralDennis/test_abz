@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="preconnect" href="https://frontend-test-assignment-api.abz.agency/api/v1" />
+    <title>ABZ Agency Test</title>
+</head>
+
+<body>
+    <header class="container header">
+        <nav class='nav centr'>
+            <a href="/" class='logo ml30'>
+                <img src="images/logo.svg" alt="logo">
+            </a>
+            <ul class="menu">
+                <div class="menu_links">
+                    <li class="menu_links-item ml30"><a href="#about_me" class='a_link' id='about_link'>About me</a></li>
+                    <li class="menu_links-item ml30"><a href="#" class='a_link'>Relationships</a></li>
+                    <li class="menu_links-item ml30"><a href="#" class='a_link'>Requirements</a></li>
+                    <li class="menu_links-item ml30"><a href="#users" class='a_link' id='users_link'>Users</a></li>
+                    <li class="menu_links-item ml30"><a href="#sign_up" class='a_link' id='reg_link'>Sign Up</a></li>
+                </div>
+                <div class="menu_icon" id='menu_icon'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container banner">
+            <h1 class="main_title ml30">Test assignment for Frontend Developer position</h1>
+            <p class="banner_text ml30">We kindly remind you that your test assignment should be submitted as a link to github/bitbucket repository.<br/> Please be patient, we consider and respond to every application that meets minimum requirements. We look forward to your submission.
+                Good luck! The photo has to scale in the banner area on the different screens</p>
+            <a href="#sign_up" class="signup_button ml30">Sign up now</a>
+        </div>
+        <!-- <div class="container about" id="about_me">
+            <h2 class="title">Let's get acquainted</h2>
+            <div class="block">
+                <img src="images/man-laptop-v1.svg" alt="laptop-man">
+                <div class="article">
+                    <h3 class="article_title">I am cool frontend developer</h3>
+                    <p class="article_text">
+                        We will evaluate how clean your approach to writing CSS and javascript code is. You can use any CSS and javascript 3rd party libraries without any restriction.
+                    </p>
+                    <p class="article_text t2">
+                        If 3rd party css/javascript libraries are added to the project via bower/npm/yarn you will get bonus points. If you use any task runner (gulp/webpack) you will get bonus points as well. Slice service directory page PSD mockup into HTML/CSS3.
+                    </p>
+                    <a href="#sign_up" class='signup_butt'>Sign up now</a>
+                </div>
+            </div>
+        </div> -->
+        <div id="root" class='container'></div>
+    </main>
+    <footer class="container centr">
+        <p>&copy abz.agency specially for the test task</p>
+    </footer>
+    <sidebar id='sidebar' class="close">
+        <header class='sidebar_header'>
+            <a href="/" class='sidebar_logo'>
+                <img src="images/logo.svg" alt="logo">
+            </a>
+        </header>
+        <section>
+            <ul class="sidebar_menu">
+                <div class="sidebar_menu-links">
+                    <li class="sidebar_menu-links-item"><a href="#about_me" class='a_link'>About me</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#" class='a_link'>Relationships</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#users" class='a_link'>Users</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Sign Up</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Terms and Conditions</a></li>
+                </div>
+            </ul>
+        </section>
+        <section>
+            <ul class="menu">
+                <div class="sidebar_menu-links">
+                    <li class="sidebar_menu-links-item"><a href="#about_me" class='a_link'>How it works</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#" class='a_link'>Partnership</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#users" class='a_link'>Help</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Leave testimonial</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Contact us</a></li>
+                </div>
+            </ul>
+        </section>
+        <section>
+            <ul class="menu">
+                <div class="sidebar_menu-links">
+                    <li class="sidebar_menu-links-item"><a href="#about_me" class='a_link'>Articles</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#" class='a_link'>Our news</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#users" class='a_link'>Testimonials</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Licenses</a></li>
+                    <li class="sidebar_menu-links-item"><a href="#sign_up" class='a_link'>Privacy Policy</a></li>
+                </div>
+            </ul>
+        </section>
+    </sidebar>
+</body>
+<script src="script/script.js" async></script>
+
+</html>

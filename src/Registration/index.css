@@ -1,0 +1,233 @@
+.register>.title {
+    padding-top: 110px;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.register>.attention {
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+form {
+    width: 330px;
+    text-align: center;
+    font-size: 14px;
+}
+
+form>.signup_button {
+    padding-top: 0;
+    margin-bottom: -22px;
+}
+
+.field>label {
+    float: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.field>input {
+    width: 330px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 212, 218);
+    font-size: 14px;
+    line-height: 1.75;
+    padding-left: 15px;
+    margin-bottom: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hid {
+    visibility: hidden;
+}
+
+.has-error {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.error {
+    color: red;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 10px #007bff;
+}
+
+input.error_border[type=text]:focus,
+input.error_border[type=email]:focus,
+input.error_border[type=tel]:focus {
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+input.error_border {
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+.mb23 {
+    margin-bottom: 20px;
+}
+
+button[type=submit]:disabled {
+    background: #d7d7d7;
+    cursor: not-allowed;
+}
+
+.help_text {
+    font-size: 11px;
+    text-align: left;
+}
+
+.position {
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.position>p {
+    margin-bottom: 15px;
+    padding-top: 2px;
+}
+
+.position>label {
+    display: block;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 10px #007bff;
+}
+
+input[type=file] {
+    display: none;
+}
+
+label.file_label {
+    display: block;
+    width: 330px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 212, 218);
+    font-size: 15px;
+    color: rgb(178, 185, 192);
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-left: 13px;
+}
+
+.file_label>span {
+    display: block;
+    height: 36px;
+    border-left: 1px solid rgb(206, 212, 218);
+    width: 82px;
+    background: #f9f9f3;
+    text-align: center;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #000;
+    margin-top: -8px;
+    padding-top: 7px;
+}
+
+p.photo {
+    margin-top: 13px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .centr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .attention {
+        margin-top: 19px;
+    }
+    .register>.title {
+        padding-top: 107px;
+        font-size: 40px;
+    }
+    .register>.attention {
+        width: 460px;
+    }
+    form {
+        width: 468px;
+    }
+    .field {
+        margin-left: 5px;
+    }
+    .field>input {
+        width: 468px;
+    }
+    label.file_label {
+        width: 468px;
+    }
+    p.photo {
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .centr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .attention {
+        margin-top: 24px;
+    }
+    .register>.title {
+        padding-top: 156px;
+        font-size: 50px;
+    }
+    .register>.attention {
+        width: 470px;
+        line-height: 24px;
+        font-size: 17px;
+        letter-spacing: -0.4px;
+    }
+    form {
+        width: 468px;
+    }
+    .field {
+        margin-left: 0px;
+    }
+    .field>input {
+        width: 468px;
+        margin-bottom: 5px;
+    }
+    .help_text {
+        font-size: 12px;
+    }
+    .mb21 {
+        margin-bottom: 21px;
+    }
+    .mb23 {
+        margin-bottom: 23px;
+    }
+    .position>p {
+        padding-top: 0px;
+    }
+    label.file_label {
+        width: 468px;
+    }
+    p.photo {
+        margin-top: 8px;
+    }
+}
