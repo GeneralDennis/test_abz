@@ -206,9 +206,9 @@ input {
 .banner {
     height: 400px;
     background-image: url(../img/banner-photo-min.webp);
-    background-size: 685px 400px;
+    background-size: 768px 400px;
+    background-repeat: no-repeat;
     margin-bottom: 70px;
-    background-position: -170px 0px;
 }
 
 .banner>.signup_button {
@@ -336,7 +336,7 @@ footer>p {
     }
     .banner {
         height: 500px;
-        background-size: 1024px 600px;
+        background-size: 100%;
         margin-bottom: 113px;
     }
     .main_title {
