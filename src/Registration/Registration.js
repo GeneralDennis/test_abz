@@ -117,10 +117,9 @@ class Registration extends Component {
 
     fileSet() {
         let { errors, fileValid } = this.state
-        console.log(this.fileInput.current.files[0].type, this.fileInput.current.files[0].size)
         if (!['image/jpeg'].includes(this.fileInput.current.files[0].type) || this.fileInput.current.files[0].size > 5 * 1024 * 1024) {
             fileValid = false
-            console.log('File format must be jpeg/jpg and file must be up to 5 Mb')
+            console.error('File format must be jpeg/jpg and file must be up to 5 Mb')
             errors.file = 'File format must be jpeg/jpg and file must be up to 5 Mb'
         } else {
             fileValid = true
